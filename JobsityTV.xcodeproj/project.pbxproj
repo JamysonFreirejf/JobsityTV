@@ -105,6 +105,18 @@
 		1AAACA8E2B94F6620021E69E /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAACA8D2B94F6620021E69E /* SettingsCoordinator.swift */; };
 		1AAACA922B94F7D10021E69E /* AuthenticatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAACA902B94F7D10021E69E /* AuthenticatorViewController.swift */; };
 		1AAACA932B94F7D10021E69E /* AuthenticatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AAACA912B94F7D10021E69E /* AuthenticatorViewController.xib */; };
+		1AC98B402B9543B8004DA399 /* MVVMC.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B3F2B9543B8004DA399 /* MVVMC.png */; };
+		1AC98B422B9543C2004DA399 /* Screenshot 2024-03-03 at 20.46.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B412B9543C2004DA399 /* Screenshot 2024-03-03 at 20.46.24.png */; };
+		1AC98B4C2B954485004DA399 /* Screenshot 2024-03-03 at 20.50.14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B432B954484004DA399 /* Screenshot 2024-03-03 at 20.50.14.png */; };
+		1AC98B4D2B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B442B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png */; };
+		1AC98B4E2B954485004DA399 /* Screenshot 2024-03-03 at 20.49.55.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B452B954485004DA399 /* Screenshot 2024-03-03 at 20.49.55.png */; };
+		1AC98B4F2B954485004DA399 /* Screenshot 2024-03-03 at 20.49.07.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B462B954485004DA399 /* Screenshot 2024-03-03 at 20.49.07.png */; };
+		1AC98B502B954485004DA399 /* Screenshot 2024-03-03 at 20.49.34.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B472B954485004DA399 /* Screenshot 2024-03-03 at 20.49.34.png */; };
+		1AC98B512B954485004DA399 /* Screenshot 2024-03-03 at 20.50.59.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B482B954485004DA399 /* Screenshot 2024-03-03 at 20.50.59.png */; };
+		1AC98B522B954485004DA399 /* Screenshot 2024-03-03 at 20.49.20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B492B954485004DA399 /* Screenshot 2024-03-03 at 20.49.20.png */; };
+		1AC98B532B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B4A2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png */; };
+		1AC98B542B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B4B2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png */; };
+		1AC98B562B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B552B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png */; };
 		3D9A2D09FD02F2B200E34B40 /* Pods_JobsityTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC43B2429476C72CE829540F /* Pods_JobsityTVTests.framework */; };
 		4E9DA3B6A788833ED2DF3D34 /* Pods_JobsityTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5AAA0F706F17943B1662D2 /* Pods_JobsityTV.framework */; };
 /* End PBXBuildFile section */
@@ -223,6 +235,18 @@
 		1AAACA8D2B94F6620021E69E /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
 		1AAACA902B94F7D10021E69E /* AuthenticatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorViewController.swift; sourceTree = "<group>"; };
 		1AAACA912B94F7D10021E69E /* AuthenticatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticatorViewController.xib; sourceTree = "<group>"; };
+		1AC98B3F2B9543B8004DA399 /* MVVMC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MVVMC.png; sourceTree = "<group>"; };
+		1AC98B412B9543C2004DA399 /* Screenshot 2024-03-03 at 20.46.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.46.24.png"; sourceTree = "<group>"; };
+		1AC98B432B954484004DA399 /* Screenshot 2024-03-03 at 20.50.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.50.14.png"; sourceTree = "<group>"; };
+		1AC98B442B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.51.07.png"; sourceTree = "<group>"; };
+		1AC98B452B954485004DA399 /* Screenshot 2024-03-03 at 20.49.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.49.55.png"; sourceTree = "<group>"; };
+		1AC98B462B954485004DA399 /* Screenshot 2024-03-03 at 20.49.07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.49.07.png"; sourceTree = "<group>"; };
+		1AC98B472B954485004DA399 /* Screenshot 2024-03-03 at 20.49.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.49.34.png"; sourceTree = "<group>"; };
+		1AC98B482B954485004DA399 /* Screenshot 2024-03-03 at 20.50.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.50.59.png"; sourceTree = "<group>"; };
+		1AC98B492B954485004DA399 /* Screenshot 2024-03-03 at 20.49.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.49.20.png"; sourceTree = "<group>"; };
+		1AC98B4A2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.48.54.png"; sourceTree = "<group>"; };
+		1AC98B4B2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.48.45.png"; sourceTree = "<group>"; };
+		1AC98B552B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.51.58.png"; sourceTree = "<group>"; };
 		347752F0DCAE83CA6A59E2AA /* Pods-JobsityTV-JobsityTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityTV-JobsityTVUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsityTV-JobsityTVUITests/Pods-JobsityTV-JobsityTVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		58409446D6B1CE2F88A88141 /* Pods-JobsityTV-JobsityTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityTV-JobsityTVUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsityTV-JobsityTVUITests/Pods-JobsityTV-JobsityTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		614FE8AAD5B724AF84AA0095 /* Pods-JobsityTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityTV.release.xcconfig"; path = "Target Support Files/Pods-JobsityTV/Pods-JobsityTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -394,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				1A58998F2B953D5F0099D4B4 /* README.md */,
+				1AC98B3E2B9543A7004DA399 /* Screenshots */,
 				1AAAC98E2B93770C0021E69E /* JobsityTV */,
 				1AAAC9A52B93770D0021E69E /* JobsityTVTests */,
 				1AAAC98D2B93770C0021E69E /* Products */,
@@ -849,6 +874,25 @@
 			path = Authenticator;
 			sourceTree = "<group>";
 		};
+		1AC98B3E2B9543A7004DA399 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				1AC98B3F2B9543B8004DA399 /* MVVMC.png */,
+				1AC98B412B9543C2004DA399 /* Screenshot 2024-03-03 at 20.46.24.png */,
+				1AC98B4B2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png */,
+				1AC98B4A2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png */,
+				1AC98B462B954485004DA399 /* Screenshot 2024-03-03 at 20.49.07.png */,
+				1AC98B492B954485004DA399 /* Screenshot 2024-03-03 at 20.49.20.png */,
+				1AC98B472B954485004DA399 /* Screenshot 2024-03-03 at 20.49.34.png */,
+				1AC98B552B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png */,
+				1AC98B452B954485004DA399 /* Screenshot 2024-03-03 at 20.49.55.png */,
+				1AC98B432B954484004DA399 /* Screenshot 2024-03-03 at 20.50.14.png */,
+				1AC98B482B954485004DA399 /* Screenshot 2024-03-03 at 20.50.59.png */,
+				1AC98B442B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		1ACA7D537E2FC4D511338FE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -957,24 +1001,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AAAC99C2B93770D0021E69E /* LaunchScreen.storyboard in Resources */,
+				1AC98B402B9543B8004DA399 /* MVVMC.png in Resources */,
 				1AAACA832B94EF980021E69E /* SettingsViewController.xib in Resources */,
 				1AAACA932B94F7D10021E69E /* AuthenticatorViewController.xib in Resources */,
+				1AC98B562B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png in Resources */,
+				1AC98B512B954485004DA399 /* Screenshot 2024-03-03 at 20.50.59.png in Resources */,
+				1AC98B502B954485004DA399 /* Screenshot 2024-03-03 at 20.49.34.png in Resources */,
 				1AAACA392B9428F60021E69E /* PickerViewController.xib in Resources */,
 				1AAACA622B94663E0021E69E /* SearchChoiceTableViewCell.xib in Resources */,
 				1AAACA322B9415C00021E69E /* EpisodesListTableViewCell.xib in Resources */,
+				1AC98B4F2B954485004DA399 /* Screenshot 2024-03-03 at 20.49.07.png in Resources */,
+				1AC98B532B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png in Resources */,
 				1AAACA5A2B9463A80021E69E /* SearchOptionsViewController.xib in Resources */,
+				1AC98B522B954485004DA399 /* Screenshot 2024-03-03 at 20.49.20.png in Resources */,
 				1AAACA0F2B93E4FE0021E69E /* ShowDetailsViewController.xib in Resources */,
+				1AC98B422B9543C2004DA399 /* Screenshot 2024-03-03 at 20.46.24.png in Resources */,
 				1AAAC9E12B9395870021E69E /* Home.storyboard in Resources */,
 				1AAAC9E32B93962C0021E69E /* Favorites.storyboard in Resources */,
 				1A5899902B953D5F0099D4B4 /* README.md in Resources */,
 				1AAACA222B93F86B0021E69E /* BannerCollectionViewCell.xib in Resources */,
 				1AAAC9CF2B9379E00021E69E /* Config.json in Resources */,
+				1AC98B4C2B954485004DA399 /* Screenshot 2024-03-03 at 20.50.14.png in Resources */,
 				1AAAC9992B93770D0021E69E /* Assets.xcassets in Resources */,
 				1AAACA402B9435930021E69E /* ShowEpisodeViewController.xib in Resources */,
 				1AAACA6F2B94CF100021E69E /* ShowPeopleDetailsViewController.xib in Resources */,
 				1AAAC9972B93770C0021E69E /* Main.storyboard in Resources */,
 				1AAACA2B2B94109A0021E69E /* EpisodesListViewController.xib in Resources */,
+				1AC98B542B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png in Resources */,
 				1AAAC9FE2B93C6C30021E69E /* SearchViewController.xib in Resources */,
+				1AC98B4D2B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png in Resources */,
+				1AC98B4E2B954485004DA399 /* Screenshot 2024-03-03 at 20.49.55.png in Resources */,
 				1AAAC9F72B93A4230021E69E /* ShowCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
