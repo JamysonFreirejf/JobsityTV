@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickerViewController" customModule="JobsityTV" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="CTf-pP-Vlq" id="vls-1S-Im4"/>
+                <outlet property="confirmButton" destination="Wqi-iL-hnZ" id="A6j-xH-k3O"/>
+                <outlet property="pickerView" destination="68J-Tf-C66" id="85m-Iz-X4i"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUw-OT-h9h">
+                    <rect key="frame" x="0.0" y="552" width="393" height="300"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTf-pP-Vlq">
+                            <rect key="frame" x="334" y="3" width="47" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="tx2-0W-haF"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="viewFlipsideBackgroundColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system"/>
+                        </button>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68J-Tf-C66">
+                            <rect key="frame" x="0.0" y="43" width="393" height="202"/>
+                        </pickerView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqi-iL-hnZ">
+                            <rect key="frame" x="154" y="245" width="85" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="geM-b2-qUp"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Confirm"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Wqi-iL-hnZ" firstAttribute="centerX" secondItem="ZUw-OT-h9h" secondAttribute="centerX" id="EM1-8l-12E"/>
+                        <constraint firstItem="68J-Tf-C66" firstAttribute="leading" secondItem="ZUw-OT-h9h" secondAttribute="leading" id="ESD-d6-QGc"/>
+                        <constraint firstAttribute="bottom" secondItem="Wqi-iL-hnZ" secondAttribute="bottom" constant="20" id="P7t-Ym-wmH"/>
+                        <constraint firstAttribute="height" constant="300" id="fxT-tf-fWe"/>
+                        <constraint firstItem="CTf-pP-Vlq" firstAttribute="top" secondItem="ZUw-OT-h9h" secondAttribute="top" constant="3" id="iYT-j5-rc4"/>
+                        <constraint firstAttribute="trailing" secondItem="68J-Tf-C66" secondAttribute="trailing" id="lgE-gn-xkm"/>
+                        <constraint firstItem="68J-Tf-C66" firstAttribute="top" secondItem="CTf-pP-Vlq" secondAttribute="bottom" id="owb-DP-CgI"/>
+                        <constraint firstAttribute="trailing" secondItem="CTf-pP-Vlq" secondAttribute="trailing" constant="12" id="shE-dz-EdL"/>
+                        <constraint firstItem="Wqi-iL-hnZ" firstAttribute="top" secondItem="68J-Tf-C66" secondAttribute="bottom" id="zzW-7K-3Q2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZUw-OT-h9h" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AYc-sk-VF1"/>
+                <constraint firstAttribute="trailing" secondItem="ZUw-OT-h9h" secondAttribute="trailing" id="TWV-yE-ViR"/>
+                <constraint firstAttribute="bottom" secondItem="ZUw-OT-h9h" secondAttribute="bottom" id="ZUy-6C-x7X"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

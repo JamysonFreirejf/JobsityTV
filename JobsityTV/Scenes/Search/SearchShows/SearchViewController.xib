@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="JobsityTV" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="m5S-TY-wIB" id="w0c-E2-tk4"/>
+                <outlet property="collectionView" destination="yET-Wi-m6g" id="qJ3-cE-JRp"/>
+                <outlet property="inputTextField" destination="W9b-Sa-WOn" id="v6N-gJ-40m"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4t1-9U-yyd">
+                    <rect key="frame" x="0.0" y="59" width="393" height="60"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lje-d0-9y8">
+                            <rect key="frame" x="40" y="10.999999999999996" width="20.333333333333329" height="38.333333333333329"/>
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="TbH-tq-rlf"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-Sa-WOn">
+                            <rect key="frame" x="68.333333333333343" y="13" width="316.66666666666663" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5S-TY-wIB">
+                            <rect key="frame" x="0.0" y="12.666666666666671" width="40" height="35"/>
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="W9b-Sa-WOn" firstAttribute="leading" secondItem="lje-d0-9y8" secondAttribute="trailing" constant="8" id="5R3-mE-KOB"/>
+                        <constraint firstItem="lje-d0-9y8" firstAttribute="centerY" secondItem="4t1-9U-yyd" secondAttribute="centerY" id="8Fc-fI-DUz"/>
+                        <constraint firstItem="lje-d0-9y8" firstAttribute="leading" secondItem="m5S-TY-wIB" secondAttribute="trailing" id="9jJ-QE-zu2"/>
+                        <constraint firstAttribute="trailing" secondItem="W9b-Sa-WOn" secondAttribute="trailing" constant="8" id="FMi-E0-Uum"/>
+                        <constraint firstItem="W9b-Sa-WOn" firstAttribute="centerY" secondItem="4t1-9U-yyd" secondAttribute="centerY" id="L0h-8L-YtN"/>
+                        <constraint firstItem="m5S-TY-wIB" firstAttribute="centerY" secondItem="4t1-9U-yyd" secondAttribute="centerY" id="l6A-El-n2u"/>
+                        <constraint firstItem="m5S-TY-wIB" firstAttribute="leading" secondItem="4t1-9U-yyd" secondAttribute="leading" id="pga-1P-CZz"/>
+                        <constraint firstAttribute="height" constant="60" id="yej-ch-b93"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="yET-Wi-m6g">
+                    <rect key="frame" x="0.0" y="119" width="393" height="699"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="aN9-Td-Rxv">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="4t1-9U-yyd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0du-el-0KA"/>
+                <constraint firstItem="4t1-9U-yyd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="34h-nn-3aR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yET-Wi-m6g" secondAttribute="trailing" id="7Kd-Ok-66u"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4t1-9U-yyd" secondAttribute="trailing" id="7aU-t9-2wH"/>
+                <constraint firstItem="yET-Wi-m6g" firstAttribute="top" secondItem="4t1-9U-yyd" secondAttribute="bottom" id="L3w-aZ-Jsd"/>
+                <constraint firstItem="yET-Wi-m6g" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ODh-PX-Jnl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="yET-Wi-m6g" secondAttribute="bottom" id="hFF-Bg-iyk"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

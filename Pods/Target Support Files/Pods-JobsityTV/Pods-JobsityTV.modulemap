@@ -1,0 +1,6 @@
+framework module Pods_JobsityTV {
+  umbrella header "Pods-JobsityTV-umbrella.h"
+
+  export *
+  module * { export * }
+}
