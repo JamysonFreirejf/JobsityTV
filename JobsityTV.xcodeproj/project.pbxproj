@@ -117,6 +117,8 @@
 		1AC98B532B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B4A2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png */; };
 		1AC98B542B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B4B2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png */; };
 		1AC98B562B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B552B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png */; };
+		1AC98B592B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.31.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B572B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.31.jpeg */; };
+		1AC98B5A2B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC98B582B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.05.jpeg */; };
 		3D9A2D09FD02F2B200E34B40 /* Pods_JobsityTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC43B2429476C72CE829540F /* Pods_JobsityTVTests.framework */; };
 		4E9DA3B6A788833ED2DF3D34 /* Pods_JobsityTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5AAA0F706F17943B1662D2 /* Pods_JobsityTV.framework */; };
 /* End PBXBuildFile section */
@@ -247,6 +249,8 @@
 		1AC98B4A2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.48.54.png"; sourceTree = "<group>"; };
 		1AC98B4B2B954485004DA399 /* Screenshot 2024-03-03 at 20.48.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.48.45.png"; sourceTree = "<group>"; };
 		1AC98B552B9544A5004DA399 /* Screenshot 2024-03-03 at 20.51.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-03 at 20.51.58.png"; sourceTree = "<group>"; };
+		1AC98B572B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.31.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screenshot 2024-03-03 at 21.32.31.jpeg"; sourceTree = "<group>"; };
+		1AC98B582B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screenshot 2024-03-03 at 21.32.05.jpeg"; sourceTree = "<group>"; };
 		347752F0DCAE83CA6A59E2AA /* Pods-JobsityTV-JobsityTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityTV-JobsityTVUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsityTV-JobsityTVUITests/Pods-JobsityTV-JobsityTVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		58409446D6B1CE2F88A88141 /* Pods-JobsityTV-JobsityTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityTV-JobsityTVUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsityTV-JobsityTVUITests/Pods-JobsityTV-JobsityTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		614FE8AAD5B724AF84AA0095 /* Pods-JobsityTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityTV.release.xcconfig"; path = "Target Support Files/Pods-JobsityTV/Pods-JobsityTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -889,6 +893,8 @@
 				1AC98B432B954484004DA399 /* Screenshot 2024-03-03 at 20.50.14.png */,
 				1AC98B482B954485004DA399 /* Screenshot 2024-03-03 at 20.50.59.png */,
 				1AC98B442B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png */,
+				1AC98B582B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.05.jpeg */,
+				1AC98B572B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.31.jpeg */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -1019,6 +1025,7 @@
 				1AAAC9E12B9395870021E69E /* Home.storyboard in Resources */,
 				1AAAC9E32B93962C0021E69E /* Favorites.storyboard in Resources */,
 				1A5899902B953D5F0099D4B4 /* README.md in Resources */,
+				1AC98B592B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.31.jpeg in Resources */,
 				1AAACA222B93F86B0021E69E /* BannerCollectionViewCell.xib in Resources */,
 				1AAAC9CF2B9379E00021E69E /* Config.json in Resources */,
 				1AC98B4C2B954485004DA399 /* Screenshot 2024-03-03 at 20.50.14.png in Resources */,
@@ -1031,6 +1038,7 @@
 				1AAAC9FE2B93C6C30021E69E /* SearchViewController.xib in Resources */,
 				1AC98B4D2B954485004DA399 /* Screenshot 2024-03-03 at 20.51.07.png in Resources */,
 				1AC98B4E2B954485004DA399 /* Screenshot 2024-03-03 at 20.49.55.png in Resources */,
+				1AC98B5A2B954E42004DA399 /* Screenshot 2024-03-03 at 21.32.05.jpeg in Resources */,
 				1AAAC9F72B93A4230021E69E /* ShowCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
