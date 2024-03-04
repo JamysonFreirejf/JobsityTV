@@ -20,7 +20,7 @@ final class ShowDetailsCoordinator: BaseCoordinator {
                                                   bundle: nil)
         viewController.viewModel = ShowDetailsViewModel(contentId: contentId)
         viewController.viewModel?
-            .episodesListPressed.debug()
+            .episodesListPressed
             .drive(onNext: { [weak self] episodes in
                 self?.showEpisodesList(episodes: episodes)
             })
