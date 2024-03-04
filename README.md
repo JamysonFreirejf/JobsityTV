@@ -90,3 +90,6 @@ authentication to avoid typing the PIN number while opening the app.
 ![](https://github.com/JamysonFreirejf/JobsityTV/blob/main/Screenshots/Screenshot%202024-03-03%20at%2020.49.55.png?raw=true)
 ![](https://github.com/JamysonFreirejf/JobsityTV/blob/main/Screenshots/Screenshot%202024-03-03%20at%2020.51.58.png?raw=true)
 
+Phone supports Touch ID / Face ID
+![](https://github.com/JamysonFreirejf/JobsityTV/blob/main/Screenshots/Screenshot%202024-03-03%20at%2021.32.05.jpeg?raw=true)
+![](https://github.com/JamysonFreirejf/JobsityTV/blob/main/Screenshots/Screenshot%202024-03-03%20at%2021.32.31.jpeg?raw=true)
